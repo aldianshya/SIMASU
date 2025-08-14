@@ -4,7 +4,7 @@
 @section('main')
     <style>
         body {
-            background-color: #F8FAFF;
+
             font-family: 'Poppins', sans-serif;
         }
 
@@ -82,7 +82,7 @@
         }
     </style>
 
-    <div class="container py-4">
+    <div style="background: #F8FAFF;  padding: 20px;">
         <h4 class="mb-4 font-weight-bold" style="color:#1F2937;">Buat Surat</h4>
 
         @foreach ($templates as $index => $template)

@@ -2,7 +2,7 @@
 @extends('layout.app')
 
 @section('main')
-    <div class="container py-4" style="background-color: #F8FAFF">
+    <div style="background: #F8FAFF;  padding: 20px;">
         <div class="bg-[#f7f9fc] min-h-screen p-6">
             <h1 class="text-2xl font-bold text-[#173f80] mb-6">Riwayat Surat</h1>
 
