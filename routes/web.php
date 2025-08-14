@@ -20,6 +20,8 @@ Route::get('/surat', function () {
     return view('admin.membuat_surat');
 });
 
+
+
 Route::post('/login', [LoginController::class, 'login'])->name('login');
 Route::get('/dashboard', [LoginController::class, 'index'])->middleware(['auth'])->name('dashboard');
 
@@ -29,4 +31,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/riwayat-surat', [SuratController::class, 'riwayat'])->middleware(['auth'])->name('riwayat-surat');
     Route::get('/template-surat', [SuratController::class, 'template'])->middleware(['auth'])->name('template-surat');
     Route::post('/templates/store', [SuratController::class, 'store'])->middleware(['auth'])->name('template.store');
+    Route::get('/profil', function () {
+        return view('admin.profil');
+    })->name('profil');
 });

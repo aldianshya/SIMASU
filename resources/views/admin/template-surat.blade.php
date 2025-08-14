@@ -82,7 +82,7 @@
 
     <div style="background: #F8FAFF;  padding: 20px;">
     <div style="display: flex; align-items: center;">
-        <h4 class="mb-4 font-weight-bold" style="color:#1F2937;">Kelola Template Surat</h4>
+        <h4 class="mb-4 font-weight-bold" style="color:#19467c;">Kelola Template Surat</h4>
         <button id="btnTambahTemplate" class="btn-tambah" style="margin-left: auto">
             Tambah Template
         </button>

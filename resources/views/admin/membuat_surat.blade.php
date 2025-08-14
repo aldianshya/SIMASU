@@ -57,7 +57,7 @@
     </style>
 
   <div style="background: #F8FAFF;  padding: 20px;">
-        <h4 class="mb-4 font-weight-bold" style="color: #19467c;">Buat Surat</h4>
+        <h3 class="mb-4 font-weight-bold" style="color: #19467c;">Buat Surat</h3>
 
         <div class="form-card">
             <h4 class="text-center mb-4 font-weight-bold" style="color: #19467c;">Buat Surat Tugas</h4>

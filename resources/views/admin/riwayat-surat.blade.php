@@ -4,7 +4,7 @@
 @section('main')
     <div style="background: #F8FAFF;  padding: 20px;">
         <div class="bg-[#f7f9fc] min-h-screen p-6">
-            <h1 class="text-2xl font-bold text-[#173f80] mb-6">Riwayat Surat</h1>
+            <h3 class="text-2xl font-weight-bold mb-6"  style="color: #19467c">Riwayat Surat</h3>
 
             {{-- Filter Bar --}}
             <div class="bg-white rounded-lg shadow-sm p-4 flex flex-wrap items-center gap-3 mb-6">

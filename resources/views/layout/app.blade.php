@@ -118,7 +118,8 @@
                 <a href="{{ route('pilih-template') }}" class="{{ request()->routeIs(['membuat-surat', 'pilih-template']) ? 'active' : '' }}">Buat Surat</a>
                 <a href="{{ route('riwayat-surat') }}" class="{{ request()->routeIs('riwayat-surat') ? 'active' : '' }}">Riwayat Surat</a>
                 <a href="{{ route('template-surat') }}" class="{{ request()->routeIs('template-surat') ? 'active' : '' }}">Template Surat</a>
-                <a href="#">Pengguna</a>
+                <a href="{{ route('profil') }}" class="{{ request()->routeIs('profil') ? 'active' : '' }}">Pengguna</a>
+
                 <a href="#">Log out</a>
             </div>
 

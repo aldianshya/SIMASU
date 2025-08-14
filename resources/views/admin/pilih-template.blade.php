@@ -83,7 +83,7 @@
     </style>
 
     <div style="background: #F8FAFF;  padding: 20px;">
-        <h4 class="mb-4 font-weight-bold" style="color:#1F2937;">Buat Surat</h4>
+        <h3 class="mb-4 font-weight-bold" style="color:#19467c;">Buat Surat</h3>
 
         @foreach ($templates as $index => $template)
         <div class="template-card" data-target="preview{{ $index }}">
